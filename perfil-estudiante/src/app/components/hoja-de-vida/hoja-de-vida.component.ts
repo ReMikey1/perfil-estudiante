@@ -12,4 +12,10 @@ export class HojaDeVidaComponent implements OnInit{
   ngOnInit(): void {
     initFlowbite()
   }
+  descargarPDF() {
+    const link = document.createElement('a');
+    link.href = 'assets/CV-Miguel.pdf';
+    link.download = 'archivo.pdf'; 
+    link.click();
+  }
 }

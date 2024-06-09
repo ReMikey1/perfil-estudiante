@@ -2,12 +2,115 @@
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Hoja de Vida</h2>
-            <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
-            <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+            <p class="mb-4">Un poco sobre mi sería que en general me gusta aprender siempre nuevas cosas y de cualquier índole, por ejemplo me gusta mucho la mecánica, trabajar en mi propio auto aunque esto lo veo mas como un pasatiempo, tambien la tecnología, la cultura japonesa como bonsais, animación, historia japonesa y mas, tocar guitarra, entre otras cosas.</p>
+            <p class="mb-4">Idiomas: Español como idioma principal, Ingles avanzado y Japones nivel principiante.</p>
+            <div>                
+                <p class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">Descargue el CV aqui.</p>
+                <button (click)="descargarPDF()" type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Descargar</button>
+            </div>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+            <img class="w-full rounded-lg" src="assets/programming.png" alt="Perfil img 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="assets/foto-perfil.png" alt="Perfil img 2">
         </div>
+
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+                <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Habilidades Blandas</h2>
+                    </div> 
+                <div class="grid gap-8 mb-3 lg:mb-16 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Auto-desarrollo</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">En lo que puedo trato de aprender todo lo que pueda profesionalmente y de la vida.</p>
+                            </h3>
+                        </div>
+                    </div> 
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Capacidad para escuchar</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">Se me facilita poner atención a lo que me dicen y concentrarme para comprender el mensaje.</p>
+                            </h3>
+                        </div>
+                    </div> 
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Paciencia</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">Tengo bastante paciencia en general, realizando tareas que requieran de mucho detalle o sea metódicas.</p>
+                            </h3>
+                        </div>
+                    </div> 
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Trabajo en equipo</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">Trabajo bien en equipo y compartir conocimientos con otros para resolver problemas.</p>
+                            </h3>
+                        </div>
+                    </div> 
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Creatividad</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">Soy una persona creativa en muchas areas de mi vida.</p>
+                            </h3>
+                        </div>
+                    </div> 
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Perseverancia</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">No me rindo hasta lograr una meta, siempre trato de terminar lo que me propongo.</p>
+                            </h3>
+                        </div>
+                    </div>  
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Empatía</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">He comprabado al trabajar en servicio al cliente que puedo tener y demostrar bastante empatía con los clientes.</p>
+                            </h3>
+                        </div>
+                    </div> 
+                    <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a>Comunicación</a>
+                                <p class="text-lg text-gray-500 dark:text-gray-400">Facilidad para comunicarme con otros.</p>
+                            </h3>
+                        </div>
+                    </div> 
+                </div>  
+            </div>
+          </section>
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                <div class="max-w-screen-md mb-8 lg:mb-16">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Objetivos</h2>
+                </div>
+                <div class="space-y-8 md:grid grid-cols-1 md:gap-12 md:space-y-0">
+                    <div>
+                        <h3 class="mb-2 text-xl font-bold dark:text-white">Título Universitario</h3>
+                        <p class="text-gray-500 dark:text-gray-400">Luego de haber trabajado por varios años estoy en busqueda de completar mi carrera universitaria, por lo que ingrese a la Universidad Mariano Gálvez para completar mi carrera de Ingeniería en sistemas.</p>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-xl font-bold dark:text-white">Mejor puesto laboral</h3>
+                        <p class="text-gray-500 dark:text-gray-400">Uno de mis objetivos a mediano plazo es lograr obtener una promoción o mejor puesto con mayores ingresos ya sea en mi trabajo actual u otro para lograr otras metas.</p>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-xl font-bold dark:text-white">Aumentar conocimientos</h3>
+                        <p class="text-gray-500 dark:text-gray-400">Me esfuerzo por aprender todo lo que pueda en mi trabajo y universidad, tambien sobre otras areas en mi vida como en la carpinteria, ingles, mecánica y mas.</p>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-xl font-bold dark:text-white">Emprender</h3>
+                        <p class="text-gray-500 dark:text-gray-400">Este es un objetivo a mediano y largo plazo, ya que para lograr tener un negocio propio necesitare obtener mas conocimientos y experiencia, ademas de tener un capital monetario.</p>
+                    </div>
+                </div>
+            </div>
+          </section>
     </div>
 </section>
